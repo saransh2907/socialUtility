@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saransh2907.github.io/socialUtility/static/css/main.6a519f36.css",
-    "main.js": "/saransh2907.github.io/socialUtility/static/js/main.2bb5feef.js",
+    "main.css": "/saransh2907.github.io/socialUtility/static/css/main.1653d0be.css",
+    "main.js": "/saransh2907.github.io/socialUtility/static/js/main.841404b8.js",
     "static/js/787.553f7923.chunk.js": "/saransh2907.github.io/socialUtility/static/js/787.553f7923.chunk.js",
     "index.html": "/saransh2907.github.io/socialUtility/index.html",
-    "main.6a519f36.css.map": "/saransh2907.github.io/socialUtility/static/css/main.6a519f36.css.map",
-    "main.2bb5feef.js.map": "/saransh2907.github.io/socialUtility/static/js/main.2bb5feef.js.map",
+    "main.1653d0be.css.map": "/saransh2907.github.io/socialUtility/static/css/main.1653d0be.css.map",
+    "main.841404b8.js.map": "/saransh2907.github.io/socialUtility/static/js/main.841404b8.js.map",
     "787.553f7923.chunk.js.map": "/saransh2907.github.io/socialUtility/static/js/787.553f7923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a519f36.css",
-    "static/js/main.2bb5feef.js"
+    "static/css/main.1653d0be.css",
+    "static/js/main.841404b8.js"
   ]
 }
