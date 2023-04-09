@@ -18,11 +18,6 @@ function App() {
     setNavShow(!navShow)
   }
 
-  const handlePincodeSubmit = (pincode) => {
-    console.log(`User submitted pincode: ${pincode}`);
-    setUserPincode(pincode)
-  };
-
   return (
     <div>
       <Router>
@@ -31,7 +26,7 @@ function App() {
         <div style={{marginTop:56}}>
           <Routes>
               <Route path='/login' element={<Login sendIsloggedIn = {setIsLoggedIn}/>}/>
-              <Route path='/' element={<Home onPincodeSubmit={handlePincodeSubmit}/>}/>
+              <Route path='/' element={<Home pincode={userPincode} setUserPincode={setUserPincode}/>}/>
               <Route path='/categories' element={<ServicesTypesFunc pincode={userPincode}/>}/>
               <Route path='/about' element={<AboutUs/>}/>
               <Route path='/profile' element={<Profile/>}/>
@@ -40,7 +35,7 @@ function App() {
         </div>
       </Router>
       <span className="mx-1 btn btn-outline-dark" style={{backgroundColor:'Yellow'}} onClick={toggleNav}>
-        {navShow?"Show":"Hide"}
+        {navShow?"Hide":"Show"}
       </span>
     </div>
   );
