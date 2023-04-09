@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import AboutUs from './components/AboutUs';
 import Home from './components/Home';
 import Login from './components/Login';
@@ -8,6 +7,7 @@ import Profile from './components/Profile';
 import RegistrationForm from './components/RegistrationForm';
 import { ServicesTypesFunc } from './components/ServicesTypes';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import './App.css';
 
 function App() {
 

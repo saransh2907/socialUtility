@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import "./style.css";
+import "./styles/style.css";
 
 const Login = ({sendIsloggedIn}) => {
   const navigate = useNavigate();
