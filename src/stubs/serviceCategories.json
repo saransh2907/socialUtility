@@ -1,0 +1,64 @@
+{
+    "servicesTypes": [
+        {
+            "categoryId": "A001",
+            "categoryName": "Cook",
+            "categoryImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Nppu_Uos62dUJp8W2MPJGu_frKOpBwnk_w&usqp=CAU",
+            "optionsAvailablecount": 5
+        },
+        {
+            "categoryId": "A002",
+            "categoryName": "Carpenter",
+            "categoryImage": "https://st2.depositphotos.com/1000423/7385/i/600/depositphotos_73855097-stock-photo-carpenter-at-work.jpg",
+            "optionsAvailablecount": 7
+        },
+        {
+            "categoryId": "A003",
+            "categoryName": "Electrician",
+            "categoryImage": "https://t4.ftcdn.net/jpg/01/70/17/97/360_F_170179753_piUSFjn4xlwAKaIU14gs6FnCVij2wckc.jpg",
+            "optionsAvailablecount": 3
+        },
+        {
+            "categoryId": "A004",
+            "categoryName": "Gardener",
+            "categoryImage": "https://static3.depositphotos.com/1003448/198/i/450/depositphotos_1988014-stock-photo-man-working-in-the-garden.jpg",
+            "optionsAvailablecount": 2
+        },
+        {
+            "categoryId": "A005",
+            "categoryName": "Househelp",
+            "categoryImage": "https://img.freepik.com/premium-photo/happy-young-woman-blue-rubber-using-mop-while-cleaning-floor-home_28283-1482.jpg?w=2000",
+            "optionsAvailablecount": 15
+        },
+        {
+            "categoryId": "A006",
+            "categoryName": "KeyMaker",
+            "categoryImage": "https://www.shutterstock.com/image-photo/street-keymaker-kuala-lumper-260nw-1158316267.jpg",
+            "optionsAvailablecount": 1
+        },
+        {
+            "categoryId": "A007",
+            "categoryName": "Mason",
+            "categoryImage": "https://media.istockphoto.com/id/1170501978/photo/bricklayer.jpg?s=612x612&w=0&k=20&c=Hzf8oIbz6S4eYZLhq3ZAZO6dvu5Zgm8EqLKbwDKxKU4=",
+            "optionsAvailablecount": 9
+        },
+        {
+            "categoryId": "A008",
+            "categoryName": "Photographer",
+            "categoryImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuYUPWoSgAdguYOU8IyE2XT2gQscUfnAluAk2bPVnH&s",
+            "optionsAvailablecount": 3
+        },
+        {
+            "categoryId": "A009",
+            "categoryName": "Plumber",
+            "categoryImage": "https://img.freepik.com/premium-photo/plumber-using-wrench-repair-water-pipe-sink_101448-3422.jpg",
+            "optionsAvailablecount": 15
+        },
+        {
+            "categoryId": "A010",
+            "categoryName": "Welder",
+            "categoryImage": "https://images.pexels.com/photos/1474993/pexels-photo-1474993.jpeg?cs=srgb&dl=pexels-movidagrafica-barcelona-1474993.jpg&fm=jpg",
+            "optionsAvailablecount": 5
+        }
+    ]   
+}
