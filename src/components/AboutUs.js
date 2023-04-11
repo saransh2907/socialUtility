@@ -1,13 +1,13 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
-import backgroundImage from '../stubs/Constants'
+// import backgroundImage from '../stubs/Constants'
 
 const AboutUs = () => {
     const devTeam =  require('../stubs/aboutUs.json')
-    let bgImg = backgroundImage;
+    // let bgImg = backgroundImage;
     return (
         <div className='container my-5' style={{ maxWidth: '100%', margin:"0% 0%",padding: "1% 2% 3% 2%",
-            position:'center',backgroundImage: `url(${bgImg})`}}>
+         position: 'relative',zIndex: 1}}>
             <h2 className='my-2'>About Us</h2>
             <p> {devTeam.application.about}</p>
             <div className='container my-4 d-flex justify-content-center'>

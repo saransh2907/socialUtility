@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import getPincodeFromLatLon from '../utils/rapidApi'
-import backgroundImage from '../stubs/Constants';
+// import backgroundImage from '../stubs/Constants';
 import ServiceCard from './ServiceCard';
 import Carousel from './Carousel';
 import { useNavigate } from 'react-router-dom';
@@ -16,6 +16,7 @@ const Home = ({ setUserPincode }) => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		setUserPincode(pincode);
+		setSelectedPincode(pincode)
 		localStorage.setItem("pincode", pincode)
 		navigate('/categories');
 	};
@@ -44,12 +45,12 @@ const Home = ({ setUserPincode }) => {
 	}
 
 	const appName = process.env.REACT_APP_NAME;
-	let bgImg = backgroundImage;
+	// let bgImg = backgroundImage;
 	return (
-		<div className='container mt-5' style={{ maxWidth: '100%', margin:"0% 0%", padding:"5%", position:'center', 
-			backgroundImage: `url(${bgImg})` }}>
-			<h1>Welcome to {appName}!</h1>
-			{ (selectedPincode !==undefined) ?
+		<div className='container mt-5' style={{ maxWidth: '100%', margin:"0% 0%", padding:"5%", position:'center'
+			 }}>
+			<h1 style={{fontFamily : "cursive", fontStyle: "italic", fontWeight:"bold"}}>Welcome to {appName}!</h1>
+			{ (selectedPincode !== undefined) ?
 			<div className='container col'>
 				<div className='row'><p style={{fontFamily : "cursive", fontStyle: "italic", fontWeight:"bold"}}>
 					Selected Pincode is {selectedPincode}</p></div>

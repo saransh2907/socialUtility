@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ServiceCard from './ServiceCard';
 import Carousel from './Carousel';
-import backgroundImage from '../stubs/Constants';
+// import backgroundImage from '../stubs/Constants';
 import Alert from './Alert';
 import { useNavigate } from 'react-router-dom';
 
@@ -24,11 +24,11 @@ class ServicesTypes extends Component {
     };
     render (){
         const categoriesJson = this.state.categories;
-        let bgImg = backgroundImage;
+        // let bgImg = backgroundImage;
         return(
             <div>
                 {this.props.pincode ? (<div className='container' style={{maxWidth:"100%", margin:"0% 0%", padding:"5%",
-                    position:'center', backgroundImage: `url(${bgImg})`}}>
+                    position:'center'}}>
                     <h2>Service Types</h2>
                     <Carousel show={5}>{categoriesJson.map( category =>
                         <div key = {category.categoryId} style={{padding: 2}}>
